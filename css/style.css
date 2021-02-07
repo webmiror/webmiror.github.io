@@ -824,3 +824,7 @@ footer {
   fill: #6253e1;
   transition: 0.5s;
 }
+
+.footer-2 .polite-links {
+  display: none;
+}

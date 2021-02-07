@@ -5,6 +5,12 @@
     .bonus .bonus-wrap .block-right img {
         right: -135px;
     }
+    .surface-wrap {
+        display: none;
+    } 
+    .footer-3 {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -42,6 +48,14 @@
         width: 600px;
         height: auto;
         top: -212px;
+    }
+    .footer-2 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .footer-3 a {
+        display: inline-block;
+        margin-bottom: 10px;
     }
 } 
 
@@ -216,7 +230,8 @@
     .speekers {
         margin-top: 50px;
         padding-top: 0;
-        background-size: auto;
+        background: url(../images/pattern2.svg) bottom 148px right no-repeat;
+        background-size: 145px;
     }
     .speekers-wrap .block-left h3 {
         margin-bottom: 23px;
@@ -270,4 +285,49 @@
     .bonus .bonus-wrap .block-left {
         text-align: center;
     }
+    .bonus {
+        padding-top: 80px;
+    }  
+    footer {
+        margin-top: 65px;
+        padding: 42px 0;
+    }
+    .footer-1 > a {
+        display: none;
+    }
+    .footer-1 {
+        order: 0;
+    }
+    .footer-2 {
+        order: 2;
+    }
+    .footer-3 {
+        order: 1;
+        margin-bottom: 22px;
+    }
+    .footer-2 .polite-links {
+        display: block;
+    }
+    .footer-2 .polite-links a {
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #6D7278;
+        display: inline-block;
+    }
+    .footer-2 .polite-links a:nth-child(2) {
+        position: relative;
+        top: -8px;
+    }
+    .footer-1 .logo {
+        margin-bottom: 26px;
+    }
+    .footer-2 .item a,
+    .footer-2 .item .label {
+        font-size: 14px;
+    }
+    .footer-2 .item {
+        font-size: 12px;
+    }
+
 }
