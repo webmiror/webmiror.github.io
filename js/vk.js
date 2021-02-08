@@ -11,4 +11,8 @@ var arrowLeft = '<svg width="31" height="16" viewBox="0 0 31 16" fill="none" xml
     //animateOut: 'linear',
     navText: [ arrowLeft, arrowRight ],
   });
+
+  $('a[href*="#"]').on("click", function (event) {
+    $('body,html').stop().animate({scrollTop: $(this.hash).offset().top}, 1000);
+  });
 });
