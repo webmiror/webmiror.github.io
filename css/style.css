@@ -828,3 +828,9 @@ footer {
 .footer-2 .polite-links {
   display: none;
 }
+
+.speekers-wrap .block-left p a:hover {
+  text-decoration: none;
+  color: #9b1f8a;
+  transition: 0.5s;
+}
